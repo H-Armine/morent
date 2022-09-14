@@ -1,0 +1,4004 @@
+.body {
+    width: 100%;
+    height: 2140px;
+}
+
+.header {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    height: 124px;
+    top: 0px;
+    left: 0px;
+    background: #FFFFFF;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+}
+
+.logo {
+    position: absolute;
+    width: 150%;
+    height: 44px;
+    left: 60px;
+    top: 40px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #3563E9;
+}
+
+.search {
+    box-sizing: border-box;
+    position: absolute;
+    width: 492px;
+    height: 44px;
+    left: 272px;
+    top: 40px;
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 70px;
+    padding-left: 25px;
+}
+
+.fa-search {
+    position: absolute;
+    left: 15.33%;
+    right: 9.5%;
+    top: 43.33%;
+    bottom: 13.5%;
+    color: #91a6cb;
+}
+
+.input {
+    position: absolute;
+    width: 149px;
+    height: 20px;
+    left: 336px;
+    top: 52px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+}
+
+#check {
+    display: none;
+}
+
+#btn {
+    color: #3D5278;
+    font-size: 20px;
+    float: right;
+    line-height: 124px;
+    margin-right: 80px;
+    margin-top: -32px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-heart {
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    right: 224px;
+    top: 40px;
+    bottom: 40px;
+    display: inline-block;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 90px;
+}
+
+.heart {
+    position: absolute;
+    left: 13px;
+    right: 10px;
+    top: 13px;
+    bottom: 10px;
+    color: #3D5278;
+    display: inline-block;
+}
+
+.icon-bell {
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    right: 160px;
+    top: 40px;
+    bottom: 40px;
+    display: inline-block;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 90px;
+}
+
+.bell {
+    position: absolute;
+    left: 13px;
+    right: 10px;
+    top: 13px;
+    bottom: 10px;
+    color: #3D5278;
+    display: inline-block;
+}
+
+.icon-gear {
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    right: 96px;
+    top: 40px;
+    bottom: 40px;
+    display: inline-block;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 90px;
+}
+
+.gear {
+    position: absolute;
+    left: 13px;
+    right: 10px;
+    top: 13px;
+    bottom: 10px;
+    color: #3D5278;
+    display: inline-block;
+}
+
+.icon-image {
+    box-sizing: border-box;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    right: 32px;
+    top: 40px;
+    bottom: 40px;
+    display: inline-block;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    border-radius: 90px;
+}
+
+.image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bar-left {
+    box-sizing: border-box;
+    position: absolute;
+    width: 25%;
+    height: 2140px;
+    left: 0px;
+    top: 124px;
+    background: #FFFFFF;
+    border-right: 1px solid #F3F5F7;
+}
+
+.type {
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    left: 90px;
+    top: 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: #94A7CB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.check-one {
+    position: absolute;
+    width: 176px;
+    height: 352px;
+    left: 90px;
+    top: 82px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #3D5278;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+}
+
+.capacity {
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    top: 470px;
+    bottom: 1556px;
+    left: 90px;
+    right: 224px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: #94A7CB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.check-two {
+    position: absolute;
+    width: 176px;
+    height: 352px;
+    left: 90px;
+    top: 518px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+    display: flex;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+}
+
+.pricer {
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    top: 790px;
+    left: 90px;
+    right: 224px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: #94A7CB;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.progress {
+    position: absolute;
+    width: 220px;
+    height: 12px;
+    left: 0px;
+    top: 50px;
+    background: #3563E9;
+    border-radius: 12px;
+}
+
+.bar-right {
+    position: absolute;
+    width: 75%;
+    height: 2140px;
+    left: 450px;
+    right: 0px;
+    top: 124px;
+    bottom: 512px;
+    background: #F6F7F9;
+}
+
+.generale-image {
+    position: absolute;
+    width: 35%;
+    height: 360px;
+    left: 150px;
+    right: 556px;
+    top: 58px;
+    bottom: 2104px;
+    border-radius: 10px;
+}
+
+.view-one {
+    position: absolute;
+    width: 30%;
+    height: 124px;
+    left: 3px;
+    right: 900px;
+    top: 386px;
+    border-radius: 10px;
+}
+
+.view-two {
+    position: absolute;
+    width: 30%;
+    height: 124px;
+    left: 175px;
+    top: 386px;
+    border-radius: 10px;
+}
+
+.view-three {
+    position: absolute;
+    width: 30%;
+    height: 124px;
+    left: 350px;
+    top: 386px;
+    border-radius: 10px;
+}
+
+.description {
+    position: absolute;
+    width: 36%;
+    height: 513px;
+    left: 726px;
+    right: 32px;
+    top: 58px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.title {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    top: 24px;
+    bottom: 444px;
+    left: 24px;
+    right: 248px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    align-items: center;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.icon-red-heart {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 426px;
+    right: 26px;
+    top: 20px;
+    bottom: 463.1px;
+}
+
+.red-heart {
+    color: red;
+}
+
+.rating {
+    position: absolute;
+    top: 74px;
+    left: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: darkgrey;
+}
+
+.reviewer {
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    top: 0px;
+    bottom: 414px;
+    right: 248px;
+    left: 115px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #3D5278;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.smale-description {
+    position: absolute;
+    width: 444px;
+    height: 120px;
+    left: 24px;
+    top: 98px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+}
+
+.type-car {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 280px;
+    left: 24px;
+    right: 376px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sport {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 280px;
+    left: 132px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.capacity-type {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 280px;
+    left: 268px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.two-person {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 280px;
+    left: 376px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.steering {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 324px;
+    left: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.manual {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 324px;
+    left: 132px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.gasoline {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 324px;
+    left: 268px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.liter {
+    position: absolute;
+    width: 92px;
+    height: 28px;
+    top: 324px;
+    left: 376px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.new-price {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    top: 420px;
+    left: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    align-items: center;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.days {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    top: 428px;
+    left: 150px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.old-price {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 456px;
+    left: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rent-button {
+    position: absolute;
+    width: 140px;
+    height: 56px;
+    right: 24px;
+    top: 420px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    background: #3563E9;
+    border-radius: 4px;
+}
+
+.rent-now {
+    position: absolute;
+    width: 76px;
+    height: 24px;
+    top: 16px;
+    left: 32px;
+    right: 32px;
+    bottom: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.comments {
+    position: absolute;
+    left: 30px;
+}
+
+.reviews {
+    position: absolute;
+    width: 78%;
+    height: 445px;
+    left: 153px;
+    top: 627px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.review-title {
+    position: absolute;
+    width: 80px;
+    height: 28px;
+    top: 24px;
+    bottom: 400px;
+    left: 27px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.amounts {
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    top: 24px;
+    left: 132px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #3563E9;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.amount {
+    width: 20px;
+    height: 16px;
+    top: 6px;
+    left: 12px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.profile-one {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 24px;
+    top: 84px;
+    border-radius: 60px;
+}
+
+.name-profile-one {
+    position: absolute;
+    width: 128px;
+    height: 28px;
+    top: 0px;
+    left: 67px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.date-profile-one {
+    position: absolute;
+    width: 128px;
+    height: 28px;
+    top: 0px;
+    left: 885px;
+    right: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ceo {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    top: 30px;
+    left: 67px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.rating-profile-one {
+    position: absolute;
+    display: flex;
+    top: 35px;
+    left: 870px;
+}
+
+.content-profile-one {
+    position: absolute;
+    width: 896px;
+    height: 56px;
+    left: 67px;
+    top: 52px;
+    right: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+}
+
+.profile-two {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 24px;
+    top: 232px;
+    border-radius: 60px;
+}
+
+.name-profile-two {
+    position: absolute;
+    width: 128px;
+    height: 28px;
+    top: 1px;
+    left: 67px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.ceo-two {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    top: 35px;
+    left: 67px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.date-profile-two {
+    position: absolute;
+    width: 128px;
+    height: 28px;
+    top: 6px;
+    left: 833px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rating-profile-two {
+    position: absolute;
+    display: flex;
+    top: 35px;
+    left: 860px;
+}
+
+.content-profile-two {
+    position: absolute;
+    width: 896px;
+    height: 56px;
+    left: 70px;
+    top: 59px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: -0.02em;
+    color: #3D5278;
+}
+
+.show-all {
+    position: absolute;
+    width: 68px;
+    height: 24px;
+    top: 394px;
+    left: 494px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.angle-down {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 569.22px;
+    top: 395px;
+    bottom: 30%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #90A3BF;
+}
+
+.recent-car {
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    top: 1127px;
+    left: 177px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.view-all {
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    top: 1127px;
+    left: 1120px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #3563E9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catalog-one {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1193px;
+    left: 155px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.car-name {
+    position: absolute;
+    width: 128px;
+    height: 24px;
+    top: 24px;
+    left: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sport-car {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    top: 52px;
+    left: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-one-red-heart {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 267px;
+    right: 26px;
+    top: 16px;
+    bottom: 343px;
+}
+
+.car-image-one {
+    position: absolute;
+    width: 272px;
+    height: 84px;
+    left: 22px;
+    top: 124px;
+    right: 23px;
+    bottom: 180px;
+}
+
+.gas-oil {
+    position: absolute;
+    left: 25.25px;
+    right: 275.25px;
+    top: 258px;
+    font-size: 22px;
+    color: #90A3BF;
+}
+
+.ninety-liters {
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    top: 0px;
+    left: 29px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.car-wheel {
+    position: absolute;
+    left: 103px;
+    right: 194px;
+    top: 258px;
+    font-size: 23px;
+    bottom: 106px;
+    color: #90A3BF;
+}
+
+.manual-car-one {
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    top: 259px;
+    left: 129px;
+    right: 132px;
+    bottom: 104px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.people-one {
+    position: absolute;
+    left: 198px;
+    right: 99px;
+    top: 259px;
+    font-size: 21px;
+    bottom: 106px;
+    color: #90A3BF;
+}
+
+.two-people {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    top: 3px;
+    left: 38px;
+    right: 24px;
+    bottom: 104px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.new-price-one {
+    position: absolute;;
+    width: 128px;
+    height: 44px;
+    top: 327px;
+    left: 24px;
+    right: 165px;
+    bottom: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.day-one {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    top: 327px;
+    left: 109px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rent-button-one {
+    position: absolute;
+    width: 116px;
+    height: 44px;
+    right: 24px;
+    top: 320px;
+    left: 177px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    background: #3563E9;
+    border-radius: 4px;
+}
+
+.rent-now-one {
+    position: absolute;
+    width: 76px;
+    height: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catalog-two {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1193px;
+    left: 526px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-two-heart {
+    position: absolute;
+    left: 85.33%;
+    right: 1.33%;
+    top: 5.92%;
+    bottom: 12.92%;
+}
+
+.old-price-smale {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    left: 24px;
+    top: 354px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-three {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1193px;
+    left: 898px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.recommend-car {
+    position: absolute;
+    width: 176px;
+    height: 24px;
+    top: 1622px;
+    left: 179px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #3563E9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.view-all-two {
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    top: 1622px;
+    left: 1120px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #3563E9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catalog-two-one {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1683px;
+    left: 160px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catalog-two-two {
+    position: absolute;;
+    width: 317px;
+    height: 388px;
+    top: 1683px;
+    left: 530px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-two-three {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1683px;
+    left: 898px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.site-footer {
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    left: 0px;
+    top: 2266px;
+    background: #FFFFFF;
+}
+
+.logo-bottom {
+    position: absolute;
+    width: 148px;
+    height: 44px;
+    left: 60px;
+    right: 1232px;
+    top: 60px;
+    bottom: 356px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 80%;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #3563E9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text {
+    position: absolute;
+    width: 292px;
+    height: 64px;
+    left: 60px;
+    right: 1088px;
+    top: 140px;
+    bottom: 276px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: -0.01em;
+    color: rgba(19, 19, 19, 0.6);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.about {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 1010px;
+    top: 80px;
+    right: 484px;
+    bottom: 368px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    align-items: center;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.about-colum {
+    position: absolute;
+    width: 152px;
+    height: 144px;
+    left: 1010px;
+    right: 484px;
+    top: 136px;
+    bottom: 200px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    color: rgba(19, 19, 19, 0.6);
+    mix-blend-mode: normal;
+}
+
+.community {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 1270px;
+    right: 272px;
+    top: 80px;
+    bottom: 368px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    align-items: center;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+
+.line {
+    position: absolute;
+    width: 1700px;
+    height: 0px;
+    left: 60px;
+    right: 120px;
+    top: 340px;
+    border: 1px solid rgba(19, 19, 19, 0.16);
+    transform: rotate(-180deg);
+}
+
+.rights {
+    position: absolute;
+    width: 292px;
+    height: 32px;
+    left: 60px;
+    top: 388px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.privacy {
+    position: absolute;
+    width: 144px;
+    height: 32px;
+    left: 1286px;
+    top: 388px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.terms {
+    position: absolute;
+    width: 144px;
+    height: 32px;
+    left: 1534px;
+    top: 388px;
+    bottom: 200px;
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+
+@media screen and (max-width: 320px)
+{
+    .header {
+        box-sizing: border-box;
+        width: 100%;
+        height: 60px;
+        top: 0px;
+        left: 0px;
+        background: #FFFFFF;
+    }
+
+    .logo {
+        left: 22px;
+        font-size: 16px;
+        top: 9px;
+    }
+
+    .search-button,
+    .icon-heart, .heart,
+    .icon-bell, .bell,
+    .icon-gear, .gear {
+        display: none;
+    }
+
+    #btn {
+        display: block;
+    }
+
+    .image, .icon-image {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        font-size: 5px;
+        margin-top: -17px;
+        margin-right: 22px;
+    }
+
+    .bar-left {
+        position: absolute;
+        width: 120px;
+        height: 440px;
+        top: 10px;
+        left: 0px;
+        background: #80697e;
+    }
+
+    .bar-right {
+        position: absolute;
+        width: 100%;
+        height: 2147px;
+        left: 0px;
+        top: 60px;
+    }
+
+    .generale-image {
+        osition: absolute;
+        width: 176px;
+        height: 140px;
+        left: 133px;
+        top: 214px;
+    }
+
+    .generale-image img {
+        position: absolute;
+        width: 176px;
+        height: 140px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .view-one img {
+        position: absolute;
+        width: 48px;
+        height: 45px;
+        left: -2px;
+        top: -239px;
+    }
+
+    .view-two img {
+        position: absolute;
+        width: 48px;
+        height: 45px;
+        left: -108px;
+        top: -239px;
+    }
+
+    .view-three img {
+        position: absolute;
+        width: 48px;
+        height: 45px;
+        left: -216px;
+        top: -239px;
+    }
+
+    .description {
+        position: relative;
+        width: 176px;
+        height: 192px;
+        left: 133px;
+        top: 10px;
+    }
+
+    .title {
+        position: relative;
+        font-size: 10px;
+        top: 12px;
+        left: 8px;
+    }
+
+    .icon-red-heart {
+        position: absolute;
+        font-size: 10px;
+        left: 135px;
+        top: 8px;
+    }
+
+    .red-heart {
+        color: red;
+    }
+
+    .rating {
+        position: absolute;
+        top: 30px;
+        left: 8px;
+        font-size: 5px;
+    }
+
+    .reviewer {
+        position: absolute;
+        top: -7px;
+        left: 39px;
+        font-size: 5px;
+    }
+
+    .smale-description {
+        position: absolute;
+        left: 9px;
+        top: 42px;
+        font-size: 7px;
+        line-height: 12px;
+    }
+
+    .type-car {
+        position: absolute;
+        top: 101px;
+        left: 9px;
+        font-size: 7px;
+    }
+
+    .sport {
+        position: absolute;
+        top: 101px;
+        left: -20px;
+        font-size: 7px;
+    }
+
+    .capacity-type {
+        position: absolute;
+        top: 101px;
+        left: 88px;
+        font-size: 7px;
+    }
+
+    .two-person {
+        position: absolute;
+        top: 101px;
+        left: 70px;
+        font-size: 7px;
+    }
+
+    .steering {
+        position: absolute;
+        top: 121px;
+        left: 9px;
+        font-size: 7px;
+    }
+
+    .manual {
+        position: absolute;
+        top: 121px;
+        left: -19px;
+        font-size: 7px;
+    }
+
+    .gasoline {
+        position: absolute;
+        top: 121px;
+        left: 92px;
+        font-size: 7px;
+    }
+
+    .liter {
+        position: absolute;
+        top: 121px;
+        left: 69px;
+        font-size: 7px;
+    }
+
+    .new-price {
+        position: absolute;
+        top: 147px;
+        left: 11px;
+        font-size: 9px;
+    }
+
+    .days {
+        position: absolute;
+        top: 147px;
+        left: 50px;
+        font-size: 6px;
+    }
+
+    .old-price {
+        position: absolute;
+        top: 167px;
+        left: 11px;
+        font-size: 6px;
+    }
+
+    .rent-button {
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        top: 160px;
+        left: 107px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rent-now {
+        position: absolute;
+        top: -4px;
+        left: -15px;
+        font-size: 5px;
+    }
+
+    .reviews {
+        position: absolute;
+        width: 300px;
+        height: 255px;
+        left: 10px;
+        top: 422px;
+    }
+
+    .review-title {
+        position: absolute;
+        top: 7px;
+        left: -13px;
+        font-size: 10px;
+    }
+
+    .amounts {
+        position: absolute;
+        width: 21px;
+        height: 13px;
+        top: 15px;
+        left: 38px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .amount {
+        position: absolute;
+        top: -2px;
+        left: 1px;
+        font-size: 7px;
+    }
+
+    .profile-one img {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+        top: -47px;
+        left: -35px;
+    }
+
+    .name-profile-one {
+        position: absolute;
+        top: -51px;
+        left: -5px;
+        font-size: 10px;
+    }
+
+    .ceo {
+        position: absolute;
+        top: -36px;
+        left: -5px;
+        font-size: 7px;
+    }
+
+    .date-profile-one {
+        position: absolute;
+        top: -52px;
+        left: 196px;
+        font-size: 7px;
+    }
+
+    .rating-profile-one {
+        position: absolute;
+        top: -32px;
+        left: 196px;
+        font-size: 7px;
+    }
+
+    .content-profile-one {
+        position: absolute;
+        width: 249px;
+        left: -7px;
+        top: -24px;
+        font-size: 7px;
+    }
+
+    .profile-two img {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+        top: -95px;
+        left: -35px;
+    }
+
+    .name-profile-two {
+        position: absolute;
+        top: -98px;
+        left: -4px;
+        font-size: 10px;
+    }
+
+    .ceo-two {
+        position: absolute;
+        top: -82px;
+        left: -4px;
+        font-size: 7px;
+    }
+
+    .date-profile-two {
+        position: absolute;
+        top: -111px;
+        left: 108px;
+        font-size: 7px;
+    }
+
+    .rating-profile-two {
+        position: relative;
+        top: -127px;
+        left: 196px;
+        font-size: 7px;
+    }
+
+    .content-profile-two {
+        position: absolute;
+        width: 249px;
+        left: -5px;
+        top: -70px;
+        font-size: 7px;
+    }
+
+    .show-all {
+        position: absolute;
+        width: 50px;
+        top: 226px;
+        left: 128px;
+        font-size: 8px;
+    }
+
+    .angle-down {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        font-size: 11px;
+        left: 177px;
+        top: 226px;
+    }
+
+    .recent-car {
+        position: absolute;
+        top: 689px;
+        left: -10px;
+        font-size: 9px;
+    }
+
+    .view-all {
+        position: absolute;
+        top: 689px;
+        left: 257px;
+        font-size: 9px;
+    }
+
+    .catalog-one {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 720px;
+        left: 64px;
+    }
+
+    .car-name {
+        position: absolute;
+        top: 11px;
+        left: 11px;
+        font-size: 12px;
+    }
+
+    .sport-car {
+        position: absolute;
+        top: 30px;
+        left: 11px;
+        font-size: 10px;
+    }
+
+    .catalog-one-red-heart {
+        position: absolute;
+        font-size: 10px;
+        left: 166px;
+        top: 15px;
+    }
+
+    .car-image-one {
+        position: absolute;
+        width: 150px;
+        height: 44px;
+        left: 16px;
+        top: 62px;
+    }
+
+    .gas-oil {
+        position: absolute;
+        top: 120px;
+        left: 15px;
+        font-size: 11px;
+    }
+
+    .ninety-liters {
+        position: absolute;
+        top: -6px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+    .car-wheel {
+        position: absolute;
+        top: 120px;
+        left: 61px;
+        font-size: 11px;
+    }
+
+    .manual-car-one {
+        position: absolute;
+        top: 117px;
+        left: 75px;
+        font-size: 10px;
+    }
+
+    .people-one {
+        position: absolute;
+        left: 120px;
+        top: 120px;
+        font-size: 10px;
+    }
+
+    .two-people {
+        position: absolute;
+        top: -3px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+    .new-price-one {
+        position: absolute;
+        top: 147px;
+        left: 12px;
+        font-size: 12px;
+    }
+
+    .day-one {
+        position: absolute;
+        top: 143px;
+        left: 62px;
+        font-size: 9px;
+    }
+
+    .rent-button-one {
+        position: absolute;
+        width: 57px;
+        height: 23px;
+        top: 149px;
+        left: 109px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rent-now-one {
+        position: absolute;
+        top: 0px;
+        left: -12px;
+        font-size: 7px;
+    }
+
+    .catalog-two {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 920px;
+        left: 64px;
+    }
+
+    .catalog-two-heart {
+        position: absolute;
+        font-size: 10px;
+        left: 168px;
+        top: 15px;
+    }
+
+    .catalog-three {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1120px;
+        left: 64px;
+    }
+
+    .recommend-car {
+        position: absolute;
+        top: 1320px;
+        left: -27px;
+        font-size: 9px;
+    }
+
+    .view-all-two {
+        position: absolute;
+        top: 1320px;
+        left: 245px;
+        font-size: 9px;
+    }
+
+    .catalog-two-one {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1352px;
+        left: 64px;
+    }
+
+    .catalog-two-two {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1555px;
+        left: 64px;
+    }
+
+    .old-price-smale {
+        position: absolute;
+        left: 13px;
+        top: 165px;
+        font-size: 9px;
+    }
+
+    .catalog-two-three {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1755px;
+        left: 64px;
+    }
+
+    .site-footer {
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        left: 0px;
+        top: 2220px;
+    }
+
+    .logo-bottom {
+        position: absolute;
+        left: 25px;
+        top: 8px;
+        font-size: 12px;
+    }
+
+    .text {
+        position: absolute;
+        left: 25px;
+        top: 30px;
+        font-size: 10px;
+    }
+
+    .about,
+    .about-colum,
+    .community,
+    .community-colum,
+    .socials,
+    .socials-colum {
+        display: none;
+    }
+
+
+    .line {
+        position: absolute;
+        width: 255px;
+        height: 0px;
+        left: 33px;
+        right: 20px;
+        top: 85px;
+        border: 1px solid rgba(19, 19, 19, 0.16);
+        transform: rotate(-180deg);
+    }
+
+    .rights {
+        position: absolute;
+        left: 77px;
+        top: 101px;
+        font-size: 10px;
+    }
+
+    .privacy {
+        position: absolute;
+        left: -31px;
+        top: 127px;
+        font-size: 9px
+    }
+
+    .terms {
+        position: absolute;
+        left: 129px;
+        top: 127px;
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
+.catalog-one {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1193px;
+    left: 155px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.car-name {
+    position: absolute;
+    width: 128px;
+    height: 24px;
+    top: 24px;
+    left: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sport-car {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    top: 52px;
+    left: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-one-red-heart {
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    left: 267px;
+    right: 26px;
+    top: 16px;
+    bottom: 343px;
+}
+
+.car-image-one {
+    position: absolute;
+    width: 272px;
+    height: 84px;
+    left: 22px;
+    top: 124px;
+    right: 23px;
+    bottom: 180px;
+}
+
+.gas-oil {
+    position: absolute;
+    left: 25.25px;
+    right: 275.25px;
+    top: 258px;
+    font-size: 22px;
+    color: #90A3BF;
+}
+
+.ninety-liters {
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    top: 0px;
+    left: 29px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.car-wheel {
+    position: absolute;
+    left: 103px;
+    right: 194px;
+    top: 258px;
+    font-size: 23px;
+    bottom: 106px;
+    color: #90A3BF;
+}
+
+.manual-car-one {
+    position: absolute;
+    width: 52px;
+    height: 24px;
+    top: 259px;
+    left: 129px;
+    right: 132px;
+    bottom: 104px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.people-one {
+    position: absolute;
+    left: 198px;
+    right: 99px;
+    top: 259px;
+    font-size: 21px;
+    bottom: 106px;
+    color: #90A3BF;
+}
+
+.two-people {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    top: 3px;
+    left: 38px;
+    right: 24px;
+    bottom: 104px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.new-price-one {
+    position: absolute;;
+    width: 128px;
+    height: 44px;
+    top: 327px;
+    left: 24px;
+    right: 165px;
+    bottom: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1A202C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.day-one {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    top: 327px;
+    left: 109px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 35px;
+    align-items: center;
+    color: #90A3BF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.rent-button-one {
+    position: absolute;
+    width: 116px;
+    height: 44px;
+    right: 24px;
+    top: 320px;
+    left: 177px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    background: #3563E9;
+    border-radius: 4px;
+}
+
+.rent-now-one {
+    position: absolute;
+    width: 76px;
+    height: 24px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catalog-two {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1193px;
+    left: 526px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-two-heart {
+    position: absolute;
+    left: 85.33%;
+    right: 1.33%;
+    top: 5.92%;
+    bottom: 12.92%;
+}
+
+.old-price-smale {
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    left: 24px;
+    top: 354px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    text-decoration-line: line-through;
+    color: #90A3BF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-three {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1193px;
+    left: 898px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.recommend-car {
+    position: absolute;
+    width: 176px;
+    height: 24px;
+    top: 1622px;
+    left: 179px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #3563E9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.view-all-two {
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    top: 1622px;
+    left: 1120px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #3563E9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catalog-two-one {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1683px;
+    left: 160px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.catalog-two-two {
+    position: absolute;;
+    width: 317px;
+    height: 388px;
+    top: 1683px;
+    left: 530px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.catalog-two-three {
+    position: absolute;
+    width: 317px;
+    height: 388px;
+    top: 1683px;
+    left: 898px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.site-footer {
+    position: absolute;
+    width: 100%;
+    height: 480px;
+    left: 0px;
+    top: 2266px;
+    background: #FFFFFF;
+}
+
+.logo-bottom {
+    position: absolute;
+    width: 148px;
+    height: 44px;
+    left: 60px;
+    right: 1232px;
+    top: 60px;
+    bottom: 356px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 80%;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #3563E9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text {
+    position: absolute;
+    width: 292px;
+    height: 64px;
+    left: 60px;
+    right: 1088px;
+    top: 140px;
+    bottom: 276px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: -0.01em;
+    color: rgba(19, 19, 19, 0.6);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.about {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 1010px;
+    top: 80px;
+    right: 484px;
+    bottom: 368px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    align-items: center;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.about-colum {
+    position: absolute;
+    width: 152px;
+    height: 144px;
+    left: 1010px;
+    right: 484px;
+    top: 136px;
+    bottom: 200px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    color: rgba(19, 19, 19, 0.6);
+    mix-blend-mode: normal;
+}
+
+.community {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 1270px;
+    right: 272px;
+    top: 80px;
+    bottom: 368px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    align-items: center;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.community-colum {
+    position: absolute;
+    width: 152px;
+    height: 144px;
+    left: 1270px;
+    top: 136px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    color: rgba(19, 19, 19, 0.6);
+    mix-blend-mode: normal;
+}
+
+.socials {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 1530px;
+    top: 80px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    align-items: center;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.socials-colum {
+    position: absolute;
+    width: 152px;
+    height: 144px;
+    left: 1530px;
+    right: 60px;
+    top: 136px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    color: rgba(19, 19, 19, 0.6);
+    mix-blend-mode: normal;
+}
+
+.line {
+    position: absolute;
+    width: 1700px;
+    height: 0px;
+    left: 60px;
+    right: 120px;
+    top: 340px;
+    border: 1px solid rgba(19, 19, 19, 0.16);
+    transform: rotate(-180deg);
+}
+
+.rights {
+    position: absolute;
+    width: 292px;
+    height: 32px;
+    left: 60px;
+    top: 388px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.privacy {
+    position: absolute;
+    width: 144px;
+    height: 32px;
+    left: 1286px;
+    top: 388px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+.terms {
+    position: absolute;
+    width: 144px;
+    height: 32px;
+    left: 1534px;
+    top: 388px;
+    bottom: 200px;
+    font-family: 'Plus Jakarta Sans', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.01em;
+    color: #131313;
+    mix-blend-mode: normal;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header {
+        box-sizing: border-box;
+        width: 100%;
+        height: 60px;
+        top: 0px;
+        left: 0px;
+        background: #FFFFFF;
+    }
+
+    .logo {
+        left: 22px;
+        font-size: 16px;
+        top: 9px;
+    }
+
+    .search-button,
+    .icon-heart, .heart,
+    .icon-bell, .bell,
+    .icon-gear, .gear {
+        display: none;
+    }
+
+    #btn {
+        display: block;
+    }
+
+    .image, .icon-image {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        font-size: 5px;
+        margin-top: -17px;
+        margin-right: 22px;
+    }
+
+    .bar-left {
+        display: none;
+    }
+
+    .bar-right {
+        position: absolute;
+        width: 100%;
+        height: 2147px;
+        left: 0px;
+        top: 60px;
+    }
+
+    .generale-image {
+        osition: absolute;
+        width: 176px;
+        height: 140px;
+        left: 133px;
+        top: 214px;
+    }
+
+    .generale-image img {
+        position: absolute;
+        width: 176px;
+        height: 140px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .view-one img {
+        position: absolute;
+        width: 48px;
+        height: 45px;
+        left: -2px;
+        top: -239px;
+    }
+
+    .view-two img {
+        position: absolute;
+        width: 48px;
+        height: 45px;
+        left: -108px;
+        top: -239px;
+    }
+
+    .view-three img {
+        position: absolute;
+        width: 48px;
+        height: 45px;
+        left: -216px;
+        top: -239px;
+    }
+
+    .description {
+        position: relative;
+        width: 176px;
+        height: 192px;
+        left: 133px;
+        top: 10px;
+    }
+
+    .title {
+        position: relative;
+        font-size: 10px;
+        top: 12px;
+        left: 8px;
+    }
+
+    .icon-red-heart {
+        position: absolute;
+        font-size: 10px;
+        left: 135px;
+        top: 8px;
+    }
+
+    .red-heart {
+        color: red;
+    }
+
+    .rating {
+        position: absolute;
+        top: 30px;
+        left: 8px;
+        font-size: 5px;
+    }
+
+    .reviewer {
+        position: absolute;
+        top: -7px;
+        left: 39px;
+        font-size: 5px;
+    }
+
+    .smale-description {
+        position: absolute;
+        left: 9px;
+        top: 42px;
+        font-size: 7px;
+        line-height: 12px;
+    }
+
+    .type-car {
+        position: absolute;
+        top: 101px;
+        left: 9px;
+        font-size: 7px;
+    }
+
+    .sport {
+        position: absolute;
+        top: 101px;
+        left: -20px;
+        font-size: 7px;
+    }
+
+    .capacity-type {
+        position: absolute;
+        top: 101px;
+        left: 88px;
+        font-size: 7px;
+    }
+
+    .two-person {
+        position: absolute;
+        top: 101px;
+        left: 70px;
+        font-size: 7px;
+    }
+
+    .steering {
+        position: absolute;
+        top: 121px;
+        left: 9px;
+        font-size: 7px;
+    }
+
+    .manual {
+        position: absolute;
+        top: 121px;
+        left: -19px;
+        font-size: 7px;
+    }
+
+    .gasoline {
+        position: absolute;
+        top: 121px;
+        left: 92px;
+        font-size: 7px;
+    }
+
+    .liter {
+        position: absolute;
+        top: 121px;
+        left: 69px;
+        font-size: 7px;
+    }
+
+    .new-price {
+        position: absolute;
+        top: 147px;
+        left: 11px;
+        font-size: 9px;
+    }
+
+    .days {
+        position: absolute;
+        top: 147px;
+        left: 50px;
+        font-size: 6px;
+    }
+
+    .old-price {
+        position: absolute;
+        top: 167px;
+        left: 11px;
+        font-size: 6px;
+    }
+
+    .rent-button {
+        position: absolute;
+        width: 47px;
+        height: 17px;
+        top: 160px;
+        left: 107px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rent-now {
+        position: absolute;
+        top: -4px;
+        left: -15px;
+        font-size: 5px;
+    }
+
+    .reviews {
+        position: absolute;
+        width: 300px;
+        height: 255px;
+        left: 10px;
+        top: 422px;
+    }
+
+    .review-title {
+        position: absolute;
+        top: 7px;
+        left: -13px;
+        font-size: 10px;
+    }
+
+    .amounts {
+        position: absolute;
+        width: 21px;
+        height: 13px;
+        top: 15px;
+        left: 38px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .amount {
+        position: absolute;
+        top: -2px;
+        left: 1px;
+        font-size: 7px;
+    }
+
+    .profile-one img {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+        top: -47px;
+        left: -35px;
+    }
+
+    .name-profile-one {
+        position: absolute;
+        top: -51px;
+        left: -5px;
+        font-size: 10px;
+    }
+
+    .ceo {
+        position: absolute;
+        top: -36px;
+        left: -5px;
+        font-size: 7px;
+    }
+
+    .date-profile-one {
+        position: absolute;
+        top: -52px;
+        left: 196px;
+        font-size: 7px;
+    }
+
+    .rating-profile-one {
+        position: absolute;
+        top: -32px;
+        left: 196px;
+        font-size: 7px;
+    }
+
+    .content-profile-one {
+        position: absolute;
+        width: 249px;
+        left: -7px;
+        top: -24px;
+        font-size: 7px;
+    }
+
+    .profile-two img {
+        position: relative;
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+        top: -95px;
+        left: -35px;
+    }
+
+    .name-profile-two {
+        position: absolute;
+        top: -98px;
+        left: -4px;
+        font-size: 10px;
+    }
+
+    .ceo-two {
+        position: absolute;
+        top: -82px;
+        left: -4px;
+        font-size: 7px;
+    }
+
+    .date-profile-two {
+        position: absolute;
+        top: -111px;
+        left: 108px;
+        font-size: 7px;
+    }
+
+    .rating-profile-two {
+        position: relative;
+        top: -127px;
+        left: 196px;
+        font-size: 7px;
+    }
+
+    .content-profile-two {
+        position: absolute;
+        width: 249px;
+        left: -5px;
+        top: -70px;
+        font-size: 7px;
+    }
+
+    .show-all {
+        position: absolute;
+        width: 50px;
+        top: 226px;
+        left: 128px;
+        font-size: 8px;
+    }
+
+    .angle-down {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        font-size: 11px;
+        left: 177px;
+        top: 226px;
+    }
+
+    .recent-car {
+        position: absolute;
+        top: 689px;
+        left: -10px;
+        font-size: 9px;
+    }
+
+    .view-all {
+        position: absolute;
+        top: 689px;
+        left: 257px;
+        font-size: 9px;
+    }
+
+    .catalog-one {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 720px;
+        left: 64px;
+    }
+
+    .car-name {
+        position: absolute;
+        top: 11px;
+        left: 11px;
+        font-size: 12px;
+    }
+
+    .sport-car {
+        position: absolute;
+        top: 30px;
+        left: 11px;
+        font-size: 10px;
+    }
+
+    .catalog-one-red-heart {
+        position: absolute;
+        font-size: 10px;
+        left: 166px;
+        top: 15px;
+    }
+
+    .car-image-one {
+        position: absolute;
+        width: 150px;
+        height: 44px;
+        left: 16px;
+        top: 62px;
+    }
+
+    .gas-oil {
+        position: absolute;
+        top: 120px;
+        left: 15px;
+        font-size: 11px;
+    }
+
+    .ninety-liters {
+        position: absolute;
+        top: -6px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+    .car-wheel {
+        position: absolute;
+        top: 120px;
+        left: 61px;
+        font-size: 11px;
+    }
+
+    .manual-car-one {
+        position: absolute;
+        top: 117px;
+        left: 75px;
+        font-size: 10px;
+    }
+
+    .people-one {
+        position: absolute;
+        left: 120px;
+        top: 120px;
+        font-size: 10px;
+    }
+
+    .two-people {
+        position: absolute;
+        top: -3px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+    .new-price-one {
+        position: absolute;
+        top: 147px;
+        left: 12px;
+        font-size: 12px;
+    }
+
+    .day-one {
+        position: absolute;
+        top: 143px;
+        left: 62px;
+        font-size: 9px;
+    }
+
+    .rent-button-one {
+        position: absolute;
+        width: 57px;
+        height: 23px;
+        top: 149px;
+        left: 109px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rent-now-one {
+        position: absolute;
+        top: 0px;
+        left: -12px;
+        font-size: 7px;
+    }
+
+    .catalog-two {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 920px;
+        left: 64px;
+    }
+
+    .catalog-two-heart {
+        position: absolute;
+        font-size: 10px;
+        left: 168px;
+        top: 15px;
+    }
+
+    .catalog-three {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1120px;
+        left: 64px;
+    }
+
+    .recommend-car {
+        position: absolute;
+        top: 1320px;
+        left: -27px;
+        font-size: 9px;
+    }
+
+    .view-all-two {
+        position: absolute;
+        top: 1320px;
+        left: 245px;
+        font-size: 9px;
+    }
+
+    .catalog-two-one {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1352px;
+        left: 64px;
+    }
+
+    .catalog-two-two {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1555px;
+        left: 64px;
+    }
+
+    .old-price-smale {
+        position: absolute;
+        left: 13px;
+        top: 165px;
+        font-size: 9px;
+    }
+
+    .catalog-two-three {
+        position: absolute;
+        width: 190px;
+        height: 185px;
+        top: 1755px;
+        left: 64px;
+    }
+
+    .site-footer {
+        position: absolute;
+        width: 100%;
+        height: 150px;
+        left: 0px;
+        top: 2220px;
+    }
+
+    .logo-bottom {
+        position: absolute;
+        left: 25px;
+        top: 8px;
+        font-size: 12px;
+    }
+
+    .text {
+        position: absolute;
+        left: 25px;
+        top: 30px;
+        font-size: 10px;
+    }
+
+    .about,
+    .about-colum,
+    .community,
+    .community-colum,
+    .socials,
+    .socials-colum {
+        display: none;
+    }
+
+
+    .line {
+        position: absolute;
+        width: 255px;
+        height: 0px;
+        left: 33px;
+        right: 20px;
+        top: 85px;
+        border: 1px solid rgba(19, 19, 19, 0.16);
+        transform: rotate(-180deg);
+    }
+
+    .rights {
+        position: absolute;
+        left: 77px;
+        top: 101px;
+        font-size: 10px;
+    }
+
+    .privacy {
+        position: absolute;
+        left: -31px;
+        top: 127px;
+        font-size: 9px
+    }
+
+    .terms {
+        position: absolute;
+        left: 129px;
+        top: 127px;
+        font-size: 9px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header {
+        width: 100%;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        border: 1px solid rgba(195, 212, 233, 0.4);
+    }
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 60%;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 25px;
+        line-height: 120%;
+        letter-spacing: 1px;
+        color: #3563E9;
+    }
+
+    .search-button {
+        display: none;
+    }
+
+    #btn {
+        display: flex;
+        justify-content: flex-start;
+        color: #3D5278;
+        font-size: 20px;
+        float: right;
+        line-height: 124px;
+        margin-right: 80px;
+        cursor: pointer;
+    }
+
+    .icons {
+        width: 31%;
+        margin-right: 31px;
+    }
+
+    .icon-header {
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+    .bar-left {
+        display: none;
+    }
+
+    .bar-right {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        box-sizing: border-box;
+        background: #F6F7F9;
+    }
+
+    .image-part {
+        width: 44%;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .generale-image {
+        width: 92%;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+
+    .view-one {
+        width: 28%;
+        margin-left: 11px;
+        border-radius: 10px;
+    }
+
+    .view-two {
+        width: 28%;
+        margin-top: -94px;
+        border-radius: 10px;
+    }
+
+    .view-three {
+        width: 28%;
+        border-radius: 10px;
+    }
+
+    .description {
+        width: 50%;
+        height: 15.5%;
+        margin-top: 25px;
+        margin-left: 28px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .title {
+        width: 33%;
+        margin-top: 26px;
+        margin-left: 30px;
+        font-size: 22px;
+        line-height: 140%;
+        color: #1A202C;
+    }
+
+    .heart {
+    }
+
+    .rating {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .rating img {
+        width: 45%;
+    }
+
+    .smale-description {
+        width: 86%;
+        height: 25%;
+        margin-top: 12px;
+        margin-left: 30px;
+        font-size: 18px;
+        line-height: 170%;
+        letter-spacing: -0.02em;
+        color: #3D5278;
+    }
+
+    .car-type {
+        width: 87%;
+        margin-top: 11px;
+        margin-left: 28px;
+    }
+
+    .type-car {
+        margin-top: 5px;
+        margin-left: 6px;
+        font-size: 18px;
+    }
+
+    .sport {
+        margin-top: 5px;
+        margin-left: 6px;
+        font-size: 18px;
+    }
+
+    .capacity-type {
+        margin-top: 5px;
+        margin-left: 38px;
+        font-size: 18px;
+    }
+
+    .two-person {
+        margin-top: 5px;
+        margin-left: 22px;
+        font-size: 18px;
+    }
+
+    .steering {
+        margin-top: 10px;
+        margin-left: 6px;
+        font-size: 18px;
+    }
+
+    .manual {
+        margin-top: 10px;
+        margin-left: 16px;
+        font-size: 18px;
+    }
+
+    .gasoline {
+        margin-top: 10px;
+        margin-left: 34px;
+        font-size: 18px;
+    }
+
+    .liter {
+        margin-top: 10px;
+        margin-left: 13px;
+        font-size: 18px;
+    }
+
+    .prices {
+        width: 97%;
+        height: 33%;
+        margin-left: 9px;
+    }
+
+    .new-price {
+        width: 36%;
+        margin-top: 104px;
+        margin-left: 20px;
+        font-size: 18px;
+        line-height: 35px;
+        align-items: center;
+        color: #1A202C;
+    }
+
+    .days {
+        width: 23%;
+        height: 28px;
+        margin-top: 106px;
+        font-size: 15px;
+        line-height: 35px;
+        color: #90A3BF;
+    }
+
+    .old-price {
+        width: 14%;
+        height: 28px;
+        font-size: 13px;
+        color: #90A3BF;
+    }
+
+    .rent-button {
+        width: 28%;
+        height: 44px;
+        margin-top: 112px;
+        padding: 0px 20px;
+        gap: 8px;
+        background: #3563E9;
+        border-radius: 6px;
+    }
+
+    .rent-now {
+        width: 19%;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    .comments {
+        width: 92%;
+        margin-top: 33px;
+        margin-left: 24px;
+        background: #ffffff;
+        border-radius: 10px;
+    }
+
+    .reviews {
+        width: 100%;
+    }
+
+    .review-title {
+        width: 30%;
+        margin-left: 30px;
+        font-size: 18px;
+        color: #1A202C;
+    }
+
+    .amounts {
+        width: 6%;
+        background: #3563E9;
+        border-radius: 4px;
+    }
+
+    .amount {
+        font-size: 12px;
+        color: #FFFFFF;
+    }
+
+    .profiles {
+        width: 100%;
+        margin-top: 2px;
+        background: #91a6cb;
+    }
+
+    .profile-one {
+        width: 91%;
+        height: 143px;
+        margin-left: 32px;
+        margin-top: 22px;
+    }
+
+    .profile-one-image {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .profile-one-name {
+        width: 19%;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .name-profile-one {
+        width: 89%;
+        margin-top: 0px;
+        margin-left: 2px;
+        font-size: 17px;
+        color: #1A202C;
+    }
+
+    .ceo {
+        margin-top: 31px;
+        font-size: 12px;
+        color: #90A3BF;
+    }
+
+    .date-profile-one {
+        width: 57%;
+        margin-top: 0px;
+        margin-left: 57px;
+        color: #3D5278;
+    }
+
+    .date-one {
+        margin-top: 0px;
+        margin-left: 2px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 38px;
+        text-align: right;
+    }
+
+    .date-profile-one img {
+        width: 21%;
+    }
+
+    .content-profile-one {
+        width: 92%;
+        height: 65%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 158%;
+        color: #3D5278;
+    }
+
+    .profile-two {
+        width: 91%;
+        margin-left: 10px;
+    }
+
+    .profile-two-image {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .profile-two-name {
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .name-profile-two {
+        width: 89%;
+        margin-top: 0px;
+        margin-left: 2px;
+        font-size: 17px;
+        color: #1A202C;
+    }
+
+    .ceo-two {
+        margin-top: 31px;
+        font-size: 12px;
+        color: #90A3BF;
+    }
+
+    .date-profile-two {
+        width: 11%;
+        height: 50px;
+        margin-top: 0px;
+        color: #3D5278;
+    }
+
+    .date-profile-two {
+        width: 24%;
+        margin-top: 0px;
+        margin-left: 57px;
+        color: #3D5278;
+    }
+
+    .date-two {
+        margin-top: 0px;
+        margin-left: 2px;
+        font-size: 12px;
+        line-height: 38px;
+        text-align: right;
+    }
+
+    .date-profile-two img {
+        width: 49%;
+    }
+
+    .content-profile-two {
+        width: 92%;
+        height: 65%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 158%;
+        color: #3D5278;
+    }
+
+    .show-all {
+    }
+
+    .recent-car {
+        width: 92%;
+        margin-left: 25px;
+        background: #c0c7d5;
+    }
+
+    .recent {
+        width: 20%;
+        margin-top: 32px;
+        margin-left: 0px;
+        font-size: 16px;
+        color: #90A3BF;
+    }
+
+    .view-all {
+        width: 18%;
+        margin-top: 32px;
+        margin-left: 44px;
+        font-size: 16px;
+        color: #3563E9;
+    }
+
+    .one-cars-catalog {
+        width: 92%;
+        margin-left: 25px;
+        background: #94A7CB;
+    }
+
+    .catalog-cars-one img {
+        width: 74%;
+        margin-top: 15px;
+        margin-left: 54px;
+    }
+
+    .catalog-cars-two img {
+        width: 80%;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .catalog-cars-three img {
+        display: none;
+    }
+
+    .recommend-car {
+        width: 92%;
+        margin-top: 0px;
+        margin-left: 24px;
+        background: azure;
+    }
+
+    .recommend {
+        width: 31%;
+        margin-top: 33px;
+        margin-left: 5px;
+        font-size: 17px;
+    }
+
+    .view-all-two {
+        width: 13%;
+        margin-top: 33px;
+        margin-right: 41px;
+        font-size: 17px;
+    }
+
+    .two-cars-catalog {
+        width: 92%;
+        margin-left: 25px;
+        margin-top: 0px;
+        background: #94A7CB;
+    }
+
+    .catalog-cars-four img {
+        width: 74%;
+        margin-top: 0px;
+        margin-left: 51px;
+    }
+
+    .catalog-cars-five img {
+        width: 80%;
+        margin-top: 0px;
+        margin-left: 18px;
+    }
+
+    .catalog-cars-six img {
+        display: none;
+    }
+
+
+    .site-footer {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        box-sizing: border-box;
+        background: #ffffff;
+    }
+
+    .container-one {
+        width: 51%;
+        height: 55%;
+        margin-left: 9px;
+        margin-top: 17px;
+    }
+
+    .logo-bottom {
+        width: 60%;
+        margin-top: 10px;
+        margin-left: 60px;
+        font-size: 25px;
+        line-height: 120%;
+        letter-spacing: 1px;
+        color: #3563E9;
+    }
+
+    .text {
+        margin-top: 59px;
+        font-size: 13px;
+    }
+
+    .container-two {
+        width: 13%;
+        height: 33%;
+    }
+
+    .about {
+        margin-top: 25px;
+        margin-left: 30px;
+        font-size: 14px;
+    }
+
+    .container-three {
+        width: 19%;
+        height: 33%;
+    }
+
+    .community {
+        margin-top: 25px;
+        margin-left: 40px;
+        font-size: 14px;
+    }
+
+    .container-four {
+        width: 17%;
+        height: 33%;
+    }
+
+    .socials {
+        margin-top: 25px;
+        margin-left: 50px;
+        font-size: 14px;
+    }
+
+    .about-colum,
+    .community-colum,
+    .socials-colum {
+        display: none;
+    }
+
+
+    .line {
+        width: 85%;
+        margin-left: 33px;
+        margin-top: 15px;
+        border: 1px solid rgba(19, 19, 19, 0.16);
+        transform: rotate(-180deg);
+    }
+
+    .container-bottom {
+        width: 100%;
+        height: 50%;
+        margin-top: 0;
+    }
+
+    .rights {
+        width: 41%;
+        margin-left: 40px;
+        margin-top: 34px;
+        font-size: 14px;
+    }
+
+    .privacy {
+        width: 95%;
+        margin-top: 70px;
+        font-size: 14px;
+    }
+
+    .terms {
+        width: 45%;
+        margin-top: 70px;
+        font-size: 14px;
+    }
+
+
+}
+
+
